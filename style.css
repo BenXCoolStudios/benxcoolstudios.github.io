@@ -60,18 +60,20 @@ benxcool {
     color: rgb(0, 87, 145)
 }
 
-.navbar{
-    background: rgba(112, 2, 255, 0.486); font-family: calibri; padding-right: 15px;padding-left: 15px;
+.btn {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to right, #2b00ff 0%, #1C00A7 100%);
+  transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.navdiv{
-    display: flex; align-items: center; justify-content: space-between;
-}
-.logo a{
-    font-size: 35px; font-weight: 600; color: white;
-}
-li{
-    list-style: none; display: inline-block;
-}
-li a{
-    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+
+.btn:hover {
+        background: rgb(34, 34, 34); 
+        box-shadow:
+          0 0 0 2px #2b00ff, 
+          0 0 5px 3px #1C00A7; 
 }
