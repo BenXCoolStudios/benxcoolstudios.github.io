@@ -24,6 +24,25 @@ h1 {
     font-size: 50px;
 }
 
+
+.btn {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to right, #2b00ff 0%, #1C00A7 100%);
+  transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.btn:hover {
+        background: rgb(34, 34, 34); 
+        box-shadow:
+          0 0 0 2px #2b00ff, 
+          0 0 5px 3px #1C00A7; 
+}
+
 pALTERNATE {
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
@@ -70,20 +89,3 @@ benxcool {
     color: rgb(0, 87, 145)
 }
 
-btn {
-  background-color: transparent;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border: none;
-  border-radius: 50px;
-  background: linear-gradient(to right, #2b00ff 0%, #1C00A7 100%);
-  transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-btn:hover {
-        background: rgb(34, 34, 34); 
-        box-shadow:
-          0 0 0 2px #2b00ff, 
-          0 0 5px 3px #1C00A7; 
-}
