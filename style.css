@@ -6,6 +6,16 @@ body {
     background-size: cover;
 }
 
+a {
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(244, 255, 197);
+    font-size: 40px;
+    
+  }
+
 h1 {
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 1000;
