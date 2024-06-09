@@ -1,0 +1,77 @@
+body {
+    background-image: url("https://benxcoolstudios.github.io/img/backgroundbxcstudios.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+}
+
+pALTERNATE {
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(244, 255, 197);
+   font-size: 30px;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(244, 255, 197);
+  font-size: 40px;
+}
+
+h2 {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+
+newmoon {
+    font-family: "Oswald", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+    color: rgb(54, 0, 140);
+   -webkit-text-stroke-color: white;
+   -webkit-text-stroke-width: 1px;
+}
+
+benxcool {
+    font-family: "Oswald", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 50px;
+   -webkit-text-stroke-color: white;
+   -webkit-text-stroke-width: 1px;
+    color: rgb(0, 87, 145)
+}
+
+.navbar{
+    background: rgba(112, 2, 255, 0.486); font-family: calibri; padding-right: 15px;padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
