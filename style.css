@@ -52,6 +52,19 @@ pALTERNATE {
    font-size: 30px;
 }
 
+.pfp {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.pfp:hover {
+    box-shadow:
+        0 0 0 2px #2b00ff, 
+        0 0 5px 3px #1C00A7; 
+}
+
 p {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
