@@ -60,7 +60,7 @@ benxcool {
     color: rgb(0, 87, 145)
 }
 
-.btn {
+btn {
   background-color: transparent;
   padding: 10px 20px;
   font-size: 16px;
@@ -71,7 +71,7 @@ benxcool {
   transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.btn:hover {
+btn:hover {
         background: rgb(34, 34, 34); 
         box-shadow:
           0 0 0 2px #2b00ff, 
